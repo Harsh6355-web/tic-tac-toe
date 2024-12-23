@@ -1,0 +1,51 @@
+*{
+    border:border-box;
+    padding:0px;
+    margin:0px;
+
+}
+.gameName{
+    display:flex;
+    justify-content:center;
+    font-weight:700;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.gameNameText{
+    font-size:50px;
+    font-weight:700;
+
+}
+.gameContainer{
+   height:100%;
+   width:100%;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+
+}
+.gameBoxes{
+    height:500px;
+    width:500px; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.box{
+    height:150px;
+    width:150px;
+    background-color:black;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:120px;
+    font-weight:700;
+    color:aqua;
+    display:flex;
+  
+    
+}
